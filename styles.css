@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #061724;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer {
+  position: fixed;
+  top: 20px;
+  font-size: 20px;
+}
+
+main {
+  background-color: #a1b7c9;
+  min-width: 400px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.numbers {
+  max-width: 150px;
+}
+
+.number-btn {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+div.stars {
+  width: 9rem;
+  text-align: center;
+}
